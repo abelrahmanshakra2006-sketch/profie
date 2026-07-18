@@ -134,6 +134,33 @@ nav ul li a:hover {
     color: #ccc;
     font-size: 0.9rem;
 }
+#testimonials {
+    padding: 80px 20px;
+    background: #050a0a;
+    text-align: center;
+    color: white;
+}
+
+.testimonial-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.testimonial-card {
+    background: #143b42;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 3px solid #00ff80;
+}
+
+.testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
 #skills {
     padding: 80px 20px;
     background-color: #0b1112;
